@@ -27,8 +27,6 @@ void loop() {
   Serial.print(distance);
   Serial.println(" cm");
     
-//  Control Light
-//  distance equal 6cm
   if(distance <= 6) {
       digitalWrite(led, HIGH);                                             
       delay(300);  
