@@ -28,10 +28,11 @@ void loop() {
   Serial.println(" cm");
     
   if(distance <= 6) {
+      digitalWrite(LED_BUILTIN, LOW);
       digitalWrite(led, HIGH);                                             
-      delay(300);  
+      delay(100);  
       digitalWrite(led, LOW);  
-      delay(300); 
+      delay(100); 
   } else if(distance <= 10 && distance > 6) {
       digitalWrite(LED_BUILTIN, LOW);                                              
 //      delay(300);  
