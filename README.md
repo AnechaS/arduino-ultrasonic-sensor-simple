@@ -2,12 +2,12 @@
     
 Sensor module to measure the distance 2cm to 400 cm
 
-### Install
+## Install
 ```bash
 git clone https://github.com/Anechasun/arduino-ultrasonic-sensor-simple.git
 ```
 
-### Equipment used
+## Equipment used
 
 * Ultrasonic HC-SR04
 * NodeMCU  v2.0
@@ -17,7 +17,7 @@ git clone https://github.com/Anechasun/arduino-ultrasonic-sensor-simple.git
 ### Complete the circuit assembly as shown below.
 ![alt text](.github/esp-sr04.png)
 
-### Basic code Ultrasonic HC-SR04
+### Basic code ultrasonic HC-SR04
 ```c++
 #define TRIGGER_PIN  5
 #define ECHO_PIN     4
