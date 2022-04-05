@@ -2,10 +2,6 @@
     
 Sensor module to measure the distance 2cm to 400 cm
 
-## Install
-```bash
-git clone https://github.com/Anechasun/arduino-ultrasonic-sensor-simple.git
-```
 
 ## Equipment used
 
